@@ -7,6 +7,10 @@ const App = () => {
   return (
   <Router>
       <div>
+        <div className="jumbotron text-center">
+          <h1 className="display-4">NYT Article Scrapper</h1>
+          <p className="lead">Search and save articles from the New York Times</p>
+        </div>
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route component={NoMatch}/>
